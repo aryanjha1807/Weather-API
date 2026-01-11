@@ -89,13 +89,19 @@
 
         }
 
-        searchBtn.addEventListener("click",()=>{
+        searchBtn.addEventListener("click", () => {
             checkWeather(searchBox.value);
-        })
+        });
+
+        searchBox.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                checkWeather(searchBox.value);
+            }
+        });
 
     </script>
 
 </body>
 </html>
 
-# Open "index.html" from the folder to Run!
+<!-- Open "index.html" from the folder to Run! -->

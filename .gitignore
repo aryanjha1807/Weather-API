@@ -1,0 +1,23 @@
+temp.html
+
+# Add files/folders you want to ignore
+
+# Ignore a specific file
+# config.js
+
+# Ignore a folder
+# node_modules/
+# images/
+
+# Ignore all files of a type
+# .env
+# *.log
+# *.tmp
+
+# Ignore VS Code settings
+# .vscode/
+# *.code-workspace
+# Ignore OS generated files
+# .DS_Store
+# Thumbs.db
+# desktop.ini
